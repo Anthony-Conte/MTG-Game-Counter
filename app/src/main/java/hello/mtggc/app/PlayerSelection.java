@@ -83,7 +83,7 @@ public class PlayerSelection extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
+//commit test
     public void hideKeyboard(View view) {
         InputMethodManager inputMethodManager =(InputMethodManager)getSystemService(Activity.INPUT_METHOD_SERVICE);
         inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
